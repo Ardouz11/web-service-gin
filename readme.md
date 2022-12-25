@@ -27,3 +27,9 @@ To get an album by its ID you can either check on your browser using this url `h
 ```shell 
 curl http://localhost:8081/albums/3 -i  -H "Content-Type: application/json" -X GET
 ```
+### Testing 
+To run unit tests run this command 
+```shell 
+go test -v 
+```
+
